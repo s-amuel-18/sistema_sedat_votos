@@ -6,8 +6,6 @@
     if ($this->session->userdata("rol") === "administrador") echo '<a class="navbar-brand" href="' . site_url("dashboard/index") . '">Dashboard</a>';
     ?>
 
-
-
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -27,7 +25,7 @@
 
         <!-- estatus mesa -->
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="# id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             mesa
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -41,12 +39,12 @@
 
         <!-- generacion de votos -->
         <li class="nav-item">
-          <a class="nav-link" href="<?php echo site_url("/") ?>">generar voto </a>
+          <a class="nav-link" href="<?php echo site_url("/") ?>">Generar voto </a>
         </li>
 
         <!-- cerrar sesion -->
         <li class="nav-item">
-          <a class="nav-link text-danger" href="<?php echo site_url("/auth/logout") ?>">cerrar sesion</a>
+          <a class="nav-link text-danger" href="<?php echo site_url("/auth/logout") ?>">Cerrar sesion</a>
         </li>
 
 

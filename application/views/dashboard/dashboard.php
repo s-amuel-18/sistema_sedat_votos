@@ -20,7 +20,7 @@ $this->load->view("template/head.php");
 
       <div class="form-group search_methods">
         <form id="form_search" class="" method="GET" action="<?php echo site_url("votacion/searchUbch") ?>">
-          <label for="search">buscar Ubch </label>
+          <label for="search">Buscar Ubch</label>
           <div class="form-group form-inline">
             <input id="search" class="form-control" type="search" name="search" placeholder="centro de votacion">
             <input type="hidden" name="url" value="dashboard/filtrar_ubch/">
